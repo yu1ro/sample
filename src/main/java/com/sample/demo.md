@@ -1,0 +1,21 @@
+- Java8のStreamを理解する
+- UML自動生成
+- csv, tsvを表で表示
+- マルチカーソル
+- 行の移動２種類 (Alt +↓↑ or ⌘ +↓↑)
+- コピペ色々
+-  (普通コピペ・選択しないコピペ・複製・ペースト履歴)
+- Booleanをif/whileで囲む
+- 選択範囲拡大/縮小
+- 補完/検索のCamelCase検索
+- この警告は要らない！(Alt + Enter → Disable Inspection)
+- 警告の調整 (右下のおじさん)
+- タブの切り替え Ctrl + Tab
+- 変数抽出・メソッド抽出
+- 行の途中で改行 (Shift + Enter)
+- 大文字/小文字切り替え (⌘ + Shift + U)
+- TODOコメントを調整する (Live Templateをいじる)
+- この素晴らしいコードは誰が書いたのか調べる
+- 完了(⌘ + Shift + Enter)
+
+自分が言いたい機能は以上です！

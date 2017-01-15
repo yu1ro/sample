@@ -7,19 +7,16 @@ public class IdeaSample {
     public void sample(List<Integer> integerList) {
 
         // 全部
-        for (Integer integer : integerList) {
+        integerList.forEach(integer -> {
             acheeme = integer;
             printInt(integer);
-
-        }
+        });
 
         // 偶数
-        for (Integer integer : integerList) {
-            if (integer % 2 == 0) {
-                acheeme = integer;
-                printInt(integer);
-            }
-        }
+        integerList.stream().filter(integer -> integer % 2 == 0).forEach(integer -> {
+            acheeme = integer;
+            printInt(integer);
+        });
     }
 
     private void printInt(Integer integer) {
